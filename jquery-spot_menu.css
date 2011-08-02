@@ -1,0 +1,42 @@
+.spot-menu ul {
+    display:none;
+}
+.spot-menu li {
+    position:relative;
+}
+.spot-menu li {
+    cursor:pointer;
+}
+.spot {
+	/*background-image:url(images/arrow-down.png);*/
+	background-position: 95% 50%;
+	background-repeat:no-repeat;
+}
+.spot.ui-spotmenu-open {
+	background-image:none;
+}
+.spot-menu .spot .ui-spotmenu-closebutton {
+    text-indent:-9999px;
+    background: url(images/close.png) 50% 50% no-repeat;
+    width:26px;
+    height:20px;
+    position:absolute;
+    right:0;
+    top:0;
+}
+.spot-menu .spot .ui-spotmenu-closebutton:hover {
+    background-image: url(images/close_hover.png);
+}
+.ui-spotmenu-filterspot input {
+    width:100%;
+    border:1px solid #efefef;
+    font-size:10px;
+    color:6f6f6f;
+}
+.ui-spotmenu-filterspot input:focus, .ui-spotmenu-filterspot input:hover {
+    border-color:#ccc;
+}
+.ui-spotmenu-activeplaceholder {
+    font-style:italic;
+    letter-spacing:.2em;
+}
